@@ -1,0 +1,9 @@
+
+@ResultPage
+Scenario: Click on £10 - £15 price range                             [90m# src/test/Resource/ResultPage.feature:7[0m
+  [32mGiven [0m[32muser is on the home page of argos website[0m                    [90m# com.CucumberBDD2023.StepDefination.IndividualProductSearchSteps.user_is_on_the_home_page_of_argos_website()[0m
+  [32mWhen [0m[32muser types puma in the search box[0m                             [90m# com.CucumberBDD2023.StepDefination.ResultPageSteps.user_types_puma_in_the_search_box()[0m
+  [32mAnd [0m[32muser clicks on the search button[0m                               [90m# com.CucumberBDD2023.StepDefination.ResultPageSteps.user_clicks_on_the_search_button()[0m
+  [32mAnd [0m[32muser should be able to see all the puma products[0m               [90m# com.CucumberBDD2023.StepDefination.ResultPageSteps.user_should_be_able_to_see_all_the_puma_products()[0m
+  [32mAnd [0m[32muser clicks on £[0m[32m[1m10[0m[32m - £[0m[32m[1m15[0m[32m price range checkbox[0m                  [90m# com.CucumberBDD2023.StepDefination.ResultPageSteps.userClicksOn££PriceRangeCheckbox(int,int)[0m
+  [32mThen [0m[32muser should able to see all the items within that price range[0m [90m# com.CucumberBDD2023.StepDefination.ResultPageSteps.user_should_able_to_see_all_the_items_within_that_price_range()[0m

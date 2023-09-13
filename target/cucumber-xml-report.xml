@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="13.385" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="ResultPage Functionality" name="Click on £10 - £15 price range" time="13.146">
+<system-out><![CDATA[
+Given user is on the home page of argos website.............................passed
+When user types puma in the search box......................................passed
+And user clicks on the search button........................................passed
+And user should be able to see all the puma products........................passed
+And user clicks on £10 - £15 price range checkbox...........................passed
+Then user should able to see all the items within that price range..........passed
+]]></system-out>
+</testcase>
+</testsuite>
