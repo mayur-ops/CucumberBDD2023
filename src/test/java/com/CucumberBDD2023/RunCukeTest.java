@@ -19,11 +19,4 @@ public class RunCukeTest {
 
 }
 
-// Dev code
-// pushing code into my branch
-// push code into dev
-//push code in to master
 
-// practice of pull command
-
-//revert command demo
